@@ -50,7 +50,7 @@ var app = {
 
         pushNotification.registerDevice(gcmOptions, function(device){
             var options = {
-                notifier:"android",
+                notifier:"areen",
                 deviceToken:device.deviceId
             };
             
@@ -66,7 +66,7 @@ var app = {
             //push here
             var devicePath = "devices/"+client.getDeviceUUID()+"/notifications";
             var options = {
-                notifier:"android",
+                notifier:"areen",
                 path:devicePath,
                 message:"hello world from JS"
             };
